@@ -1,0 +1,6 @@
+open data folder directory in Matlab
+
+Run script:    
+HEKA_Importer('path + file name.dat')
+
+For example, there is a file 12345.dat located in D:\patch, then the script should be HEKA_Importer('D:\patch\12345.dat')

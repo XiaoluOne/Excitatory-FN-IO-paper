@@ -1,0 +1,18 @@
+Codes for opto tagged PCs. Open and run the following codes in sequence
+1. opto_ephys: for PC simple spikes 
+2. opto_ephys_ST: for PC complex spikes
+3. PC_organizor_opto: for matching SS and CS of PCs
+
+Codes for saccade PCs. Open and run the following codes in sequence
+1. saca_ephys: for PC simple spikes 
+2. saca_cs_ST: for PC complex spikes
+3. PC_organizor_saca: for matching SS and CS of PCs
+
+Finally, run the code to organize all conditions in one package. (Can be used for either/ both opto, saca)
+PC_opto_ephys_saca_organizaer
+
+Codes for opto-evoked saccade
+1. run saca_opto_sys for individual session
+2. run saca_opto_organizaer to summarize all sessions of one mouse 
+3. run optosaca_discriminator to analyze saccade properties (onset, velocity, amplitude...)
+4. (optional) for eyeballing the traces, run saca_manualcheck
